@@ -1,0 +1,23 @@
+#survey h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#survey div {
+    line-height: 2;
+}
+
+#survey p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#survey img {
+    height: 395px;
+    width: 434.56px;
+}
+
+.section-margin {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}

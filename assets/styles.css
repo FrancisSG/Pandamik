@@ -1,13 +1,37 @@
-body, html{
-  padding: 0px;
-  margin: 0px;
+body,
+html {
+    padding: 0px;
+    margin: 0px;
+}
+
+#map {
+    width: 100vw !important;
+    height: 100vh !important;
+    display: block;
+    margin: 0px;
+    padding: 0px;
 }
 
 
-#map{
-  width: 100vw !important;
-  height: 100vh !important;
-  display: block;
-  margin: 0px;
-  padding: 0px;
+/* Styling that should be present on all sheets. So I put them into the main one. */
+
+body section {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-dark {
+    background-color: #1D1131;
+}
+
+.btn-danger {
+    background-color: #FB5B5B;
+    border-color: #FB5B5B;
+}
+
+.btn {
+    padding: .5rem 2rem;
+}
+
+.bottom-padding {
+    padding-bottom: 10%;
 }

@@ -1,0 +1,40 @@
+.bg-danger {
+    background-color: #FB5B5B !important;
+}
+
+.bg-dark {
+    background-color: #1D1131 !important;
+}
+
+#newsletter h3 {
+    color: white;
+    font-weight: 500;
+    line-height: 2;
+}
+
+#newsletter p {
+    color: white;
+    font-weight: 500;
+    line-height: 2;
+}
+
+#newsletter form {
+    color: white;
+    font-weight: 500;
+    line-height: 2;
+}
+
+#newsletter h3 {
+    font-size: 1.5rem;
+}
+
+#newsletter .form-control {
+    color: white !important;
+    background-color: #C64545;
+    border-color: #C64545;
+    font-weight: 500;
+}
+
+.form-control::placeholder {
+    color: white;
+}

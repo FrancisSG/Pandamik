@@ -1,0 +1,45 @@
+#offer section {
+    min-height: 100vh;
+}
+
+#offer {
+    line-height: 3;
+}
+
+#offer p {
+    font-weight: 500;
+    color: white
+}
+
+#offer h2 {
+    color: white;
+}
+
+#offer {
+    height: 100vh;
+    background-color: #1D1131;
+}
+
+#offer h2 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#offer img {
+    width: 20rem;
+    height: 20rem;
+}
+
+#logo {
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    margin: 0 auto;
+}
+
+#offer .btn {
+    padding: .5rem 5rem;
+}
