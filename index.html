@@ -5,21 +5,11 @@
     <meta charset="utf-8">
     <title>Pandamik</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Mapbox Styles -->
     <link href='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css' rel='stylesheet' />
     <script src='https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js'></script>
-
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway:500i,700&display=swap" rel="stylesheet">
-
-
-    <!-- CDNs -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-    <!-- Styles -->
-    <link rel="stylesheet" href="./assets/styles.css">
 
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/139668535e.js" crossorigin="anonymous"></script>
@@ -27,30 +17,32 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+    <!-- Styles -->
+    <link rel="stylesheet" href="./assets/styles.css">
+
+
 </head>
 
 <body>
-  </head>
-  <body>
 
     <div class="header">
-      <div id='map' style='width: 400px; height: 300px;'></div>
+        <div id='map' style='width: 400px; height: 300px;'></div>
 
 
-      <div class="headerContent">
+        <div class="headerContent">
 
-        <div class="headerTop">
-          <img src="./assets/svgs/disease-solid.svg" alt="" class="logo">
+            <div class="headerTop">
+                <img src="./assets/svgs/disease-solid.svg" alt="" class="logo">
+            </div>
+
+            <div class="headerMid">
+                <h1>Where can I get tested?</h1>
+                <h3>Check where is the closest testing<br>facility available to you.</h3>
+                <button class="btn btn-danger button">Check</button>
+            </div>
+
+
         </div>
-
-        <div class="headerMid">
-          <h1>Where can I get tested?</h1>
-          <h3>Check where is the closest testing<br>facility available to you.</h3>
-          <button class="btn btn-danger button">Check</button>
-        </div>
-
-
-      </div>
 
     </div>
 
@@ -121,7 +113,6 @@
                             <input type="email" class="form-control" id="inputEmail" placeholder="Email Address...">
                             <button type="button" class="btn btn-outline-light"><i class="far fa-paper-plane"></i></button>
                         </div>
-
                     </form>
                 </div>
             </div>
@@ -129,80 +120,11 @@
 
         </div>
     </section>
-    <section id="survey" class="section-margin">
-        <div class="container-fluid">
-            <div class="row align-items-center">
-                <div class="col-md-6 mb-4">
-                    <div class="row justify-content-center">
-                        <div class="col-10 col-lg-8 text-center">
-                            <h2>COVID-19 SURVEY</h2>
-                            <p>We will tell you how likely it is that you have COVID-19 and you will be added to a queue of people with cases that will be reviewed by a medical professional.</p>
-                            <button type="button" class="btn btn-dark">Start Survey</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6 text-center">
-                    <img src="svgs/undraw_customer_survey_f9ur.svg" alt="" class="img-fluid">
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <section id="offer" class="bg-dark bottom-padding">
-        <div class="container-fluid">
-            <div class="row text-center">
-                <div class="col-12">
-                    <h2>WHAT WE OFFER</h2>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-4 mb-4">
-                    <img src="svgs/undraw_doctors_hwty.svg" alt="" class="img-fluid">
-                    <p>Check where is the closest testing facility near you</p>
-                    <button class="btn btn-danger">Check</button>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <img src="svgs/undraw_social_distancing_2g0u(1).svg" alt="" class="img-fluid">
-                    <p>See how far you are from a reported case location</p>
-                    <button class="btn btn-danger">Check</button>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <img src="svgs/undraw_medical_care_movn.svg" alt="" class="img-fluid">
-                    <p>Take a survey to see if you should get tested urgently</p>
-                    <button class="btn btn-danger">Check</button>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-    <section id="newsletter" class="bg-danger pt-3 pb-3">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-12">
-                    <div class="row justify-content-center text-center">
-                        <div class="col-4 col-md-2">
-                            <h3>Newsletter</h3>
-                            <p>Get notified when tests are notified in your region.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="d-flex h-100">
-                <div class="m-auto">
-                    <form class="form-inline">
-                        <div class="form-group mx-sm-3 mb-2">
-                            <label for="inputEmail" class="sr-only">Email Address...</label>
-                            <input type="email" class="form-control" id="inputEmail" placeholder="Email Address...">
-                        </div>
-                        <button type="button" class="btn btn-outline-light"><i class="far fa-paper-plane"></i></button>
-                    </form>
-                </div>
-            </div>
-
-
-        </div>
-    </section>
     <script>
         mapboxgl.accessToken = 'pk.eyJ1Ijoicm9iaW5nZWFnZWEiLCJhIjoiY2pxdTR0cXkwMDNuOTQybndmc3RnZDcwNyJ9.HuOek0EUuK4-RzZL4znzuA';
         var map = new mapboxgl.Map({
@@ -211,20 +133,7 @@
         });
     </script>
 
-    <!-- Bootstrap Scripts -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/139668535e.js" crossorigin="anonymous"></script>
-
-
-
 
 </body>
-
-<footer>
-    <img id="logo" src="svgs/disease-solid.svg" alt="" class="mt-3 mb-3">
-</footer>
 
 </html>
